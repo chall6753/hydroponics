@@ -125,14 +125,14 @@ void step1() {
   // else{digitalWrite(14,LOW);
   // }
   if(fanStatus == String(1)){
-    digitalWrite(27,HIGH); 
-  }
-  else{digitalWrite(27,LOW);
-  }
-  if(y > 6 && y < 22){
     digitalWrite(26,HIGH); 
   }
   else{digitalWrite(26,LOW);
+  }
+  if(y > 6 && y < 22){
+    digitalWrite(27,HIGH); 
+  }
+  else{digitalWrite(27,LOW);
   }
   // if(brightLight == String(1)){
   //   digitalWrite(26,HIGH); 
